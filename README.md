@@ -31,6 +31,20 @@
 $ npm install
 ```
 
+### MongoDB setup
+
+This app can connect to MongoDB using Mongoose. Set the MONGODB_URI environment variable before starting the app. Example local URI:
+
+```
+MONGODB_URI=mongodb://localhost:27017/ticket-dashboard
+```
+
+Install the new dependencies (mongoose and @nestjs/mongoose) after pulling the changes:
+
+```bash
+npm install
+```
+
 ## Compile and run the project
 
 ```bash
